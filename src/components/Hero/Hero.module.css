@@ -1,0 +1,97 @@
+.hero{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    color: #fff;
+}
+.overlay{
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    
+}
+.heroimg{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index:-1;
+}
+.content{
+    position: absolute;
+    top:0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    padding:1rem;
+    z-index: 1;
+}
+.content p{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding:1rem;
+    width:70% ;
+    margin:0 auto;
+    font-size: 1.2rem;
+}
+.content2{
+    position: absolute;
+    top:0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    padding:1rem;
+    z-index: 1;
+}
+.content2 p{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding:1rem;
+    width:38% ;
+    margin:0 auto;
+    font-size: 1.2rem;
+}
+
+.content2 h1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding:1rem;
+    width:45% ;
+    margin:0 auto;
+    
+}
+
+@media (max-width: 940px){
+    .content2 p{
+        width:90% ;
+        
+    }
+    
+    .content2 h1{ 
+        width:90% ;
+        
+    }
+}
+
+
+
+
+
+
+

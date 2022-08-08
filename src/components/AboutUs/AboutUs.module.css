@@ -1,0 +1,200 @@
+.Container{
+    width: 100%;
+    padding-top: 150px;
+    margin-bottom: 80px;
+    overflow: hidden;
+}
+
+.innerContainer{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.text{
+    margin-top: 30px;
+}
+.text>h2{
+    padding-bottom: 20px;
+}
+
+.text>p{
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 140.5%;
+    letter-spacing: 0.015em;
+    margin-right: 40px;
+    padding-bottom: 40px;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
+
+button{
+    width: 180px;
+    height: 64px;
+    left: 100px;
+    top: 1646px;
+    font-size: 1.3rem;
+    border: none;
+}
+
+@media screen and (max-width: 1023px){
+    .innerContainer{
+        width: 90%;
+        display: flex;
+        margin: auto;
+        justify-content: space-between;
+    }
+
+    .text{
+        margin-top: 40px;
+        width: 80%;
+    }
+    .text>h2{
+        padding-bottom: 10px;
+        font-size: 1.5rem;
+    }
+    
+    .text>p{
+        font-weight: 400;
+        font-size: 1.2rem;
+        line-height: 140.5%;
+        letter-spacing: 0.015em;
+        padding-bottom: 30px;
+    }
+
+    button{
+        width: 130px;
+        height: 38px;
+        font-size: 1rem;
+    }
+
+    .image>img{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .innerContainer{
+        width: 90%;
+        display: flex;
+        margin: auto;
+        justify-content: space-between;
+    }
+
+    .text{
+        margin-top: 0px;
+        width: 80%;
+    }
+    .text>h2{
+        padding-bottom: 10px;
+        font-size: 1.2rem;
+    }
+    
+    .text>p{
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 140.5%;
+        letter-spacing: 0.015em;
+        padding-bottom: 20px;
+    }
+
+    button{
+        width: 100px;
+        height: 34px;
+        font-size: 0.7rem;
+        border: none;
+    }
+
+    .image>img{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 680px){
+    .innerContainer{
+        width: 90%;
+        display: block;
+        margin: auto;
+    }
+
+    .text{
+        margin-top: 0px;
+        width: 100%;
+    }
+    .text>h2{
+        padding-bottom: 10px;
+        font-size: 1.5rem;
+    }
+    
+    .text>p{
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 140.5%;
+        letter-spacing: 0.015em;
+        padding-bottom: 20px;
+    }
+
+    button{
+        width: 130px;
+        height: 38px;
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+
+    .image>img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .innerContainer{
+        width: 90%;
+        display: block;
+        margin: auto;
+    }
+
+    .text{
+        margin-top: 0px;
+        width: 100%;
+    }
+    .text>h2{
+        padding-bottom: 10px;
+        font-size: 1.5rem;
+    }
+    
+    .text>p{
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 140.5%;
+        letter-spacing: 0.015em;
+        padding-bottom: 20px;
+    }
+
+    button{
+        width: 130px;
+        height: 38px;
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+
+    .image>img{
+        width: 100%;
+    }
+}

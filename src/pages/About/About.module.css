@@ -1,0 +1,118 @@
+.Container{
+    width: 100%;
+    /* padding-top: 100px; */
+    margin-bottom: 80px;
+    overflow: hidden;
+}
+
+.innerContainer{
+    margin-bottom: 80px;
+    position: relative;
+}
+
+.innerContainer>img{
+    object-fit: contain;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay{
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+}
+
+
+.text{
+    margin: auto;
+    position: absolute;
+    padding-top:33%;
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 100%;
+}
+
+.text>p{
+    font-size: 1.2em;
+    padding-top: 10px;
+}
+
+.aboutContainer{
+    width: 90%;
+    margin: auto;
+}
+
+.upperText{
+    margin-bottom: 40px;
+}
+.upperText>p{
+    font-size: 24px;
+    line-height: 140.5%;
+}
+
+.goal{
+    margin-bottom: 40px;
+}
+
+.goal>h3{
+    margin-bottom: 10px;
+}
+
+.goal>li{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 140.5%;
+    letter-spacing: 0.015em;
+    color: #1E1E1E;
+}
+
+.value{
+    margin-bottom: 40px;
+}
+
+.value>h3 span{
+    font-size: 1.2rem;
+    font-weight: normal;
+ }
+
+.vision{
+    margin-bottom: 40px;
+}
+
+.vision>h3 span{
+   font-size: 1.2rem;
+   font-weight: normal;
+}
+
+.target>h3{
+    margin-bottom: 10px;
+}
+
+.target>p{
+    line-height: 140.5%;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 425px){
+    .Container{
+        padding-top: 70px;
+    }
+
+    .text>p{
+        font-size: 0.8em;
+        padding-top: 5px;
+    }
+
+    .text>h1{
+        font-size: 1.7em;
+    }
+}

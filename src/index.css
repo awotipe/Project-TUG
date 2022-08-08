@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --primary: #146E24;
+  --secondary: #8BC820;
+
+  --white: #fff;
+  --normal:400;
+  --bold: 700;
+  --light: 500;
+  --font-family:"DM sans";
+}
+
+body {
+  overflow-x: hidden;
+  max-width: 1450px;
+  margin: auto;
+  color: #1E1E1E;
+}
+
+html {
+  font-family: "DM sans", sans-serif;
+
+ 
+}
+ul{
+  list-style-type: none;
+}
+h1{
+ font-size: 3.5rem
+}
+
+h2{
+  font-size: 2rem
+}
+
+a{
+  text-decoration: none;
+}
+button{
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),var(--primary);
+  border-radius: 5px;
+  padding:.7rem .5rem;
+  color: #fff;
+  cursor: pointer;
+}
+button:hover {
+  background:var(--secondary);
+    border: 1px solid var(--primary)
+}
+.slick-slider{
+  height: 100vh;
+}
+.slick-dots
+{
+    position: absolute;
+    top: 90%;
+    z-index: 5;
+   
+}
+.slick-dots li button:before
+{
+  font-size: .7rem !important;
+    opacity: .25;
+    color:var(--primary) !important;
+
+}
+.slick-dots li.slick-active button:before
+{
+    opacity: .75;
+    color:var(--secondary) !important;
+}
+.slick-prev,
+.slick-next
+{
+    display: none !important;
+
+}
+.slick-next {
+  right: 0 !important;
+}
+
+
+
+@media (max-width: 940px){
+  h1{
+    font-size:2.5rem;
+  }
+  h2{
+    font-size:1.5rem;
+  }
+}
