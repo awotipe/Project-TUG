@@ -44,18 +44,10 @@ const Footer = (props) => {
           <div className={classes.part}>
             <div className={classes.part2}>
               <h3>Quick Links</h3>
-              <Link to="/">
                 <p>Home</p>
-              </Link>
-              <Link to="about">
                 <p>About Us</p>
-              </Link>
-              <Link to="contact">
                 <p>Contact</p>
-              </Link>
-              <Link to="services">
                 <p>Our Services</p>
-              </Link>
             </div>
             <div className={classes.part2}>
               <h3>Follow us</h3>

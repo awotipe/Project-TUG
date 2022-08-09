@@ -4,7 +4,7 @@ import Logo from "../../asset/send-img.svg";
 import emailjs from '@emailjs/browser';
 const Result = () => {
   return (
-    <p>Your message has been successfully sent.We will contact you soon.</p>
+    <p>Your message has been successfully sent. We will contact you soon.</p>
   );
 };
 const ContactForm = () => {
@@ -66,7 +66,7 @@ const ContactForm = () => {
           <div>
             
             <textarea className={Classes.formcontrol} name="message"
-            placeholder="message " required></textarea>
+            placeholder="Message " required></textarea>
             <br />
             <button className={Classes.btn}>
               <img src={Logo} alt="/" />

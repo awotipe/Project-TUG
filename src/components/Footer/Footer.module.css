@@ -41,6 +41,11 @@ footer{
     margin-top: 50px;
 }
 
+.address>a{
+    width: 45%;
+    color: aquamarine;
+}
+
 .address>p{
     color: #fff;
     padding-top: 20px;
@@ -50,6 +55,10 @@ footer{
     display: flex;
     color: #fff;
     padding-bottom: 20px;
+}
+
+.location>a{
+    display: flex;
 }
 
 .image{
@@ -78,7 +87,9 @@ footer{
     margin-right: 20px;
     color: #fff;
     text-decoration: none;
+    padding-bottom: 20px;
 }
+
 
 .part2>img:hover{
     transform:scale(1.5);
@@ -104,6 +115,7 @@ footer{
 a{
     font-style: none;
     color: #fff;
+    text-decoration: none;
 }
 
 

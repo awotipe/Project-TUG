@@ -4,6 +4,18 @@
     position: relative;
     color: #fff;
 }
+
+.slick-slider{
+    height: 100vh;
+  }
+  
+  .slick-dots
+  {
+      position: absolute;
+      top: 90%;
+      z-index: 5;
+  }
+  
 .overlay{
     background-color: rgba(0,0,0,0.7);
     position: absolute;
@@ -76,6 +88,7 @@
     margin:0 auto;
     
 }
+
 
 @media (max-width: 940px){
     .content2 p{

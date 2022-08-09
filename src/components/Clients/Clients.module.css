@@ -1,11 +1,11 @@
 .main{
     width: 100%;
-    padding-top: 6.25rem;
+    padding-top: 8.25rem;
     margin-bottom: 9.375rem;
 }
 
 .innerContainer{
-    width: 100%;
+    width: 90%;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -21,22 +21,15 @@
 
 
 .card{
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center; */
     margin: auto;
-    padding: 40px;
+    padding: 20px;
     margin: 20px;
     background: #FFFFFF;
     border: 3px solid #146E24;
     box-shadow: 0px 12px 24px rgba(255, 167, 55, 0.06);
     border-radius: 20px;
     box-sizing: border-box;
-    max-width: 50%;
-    max-height: 50%;
-    left: 370px;
-    top: 1318px;
+    text-align: center;
 }
 
 .innerCard>p{
@@ -44,11 +37,21 @@
     max-height: 100%;
     text-align: center;
     margin: auto;
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 
 .image>img{
     padding-top: 40px;
     width: 90px;
     margin: auto;
+}
+
+@media screen and (max-width: 425px){
+    .main>h2{
+        font-size: 1.2rem;
+    }
+    .innerCard>p{
+        font-size: 0.8rem;
+    }
+
 }

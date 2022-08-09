@@ -1,8 +1,9 @@
 .Container{
     width: 100%;
     padding-top: 150px;
-    margin-bottom: 80px;
+    padding-bottom: 80px;
     overflow: hidden;
+    margin: auto;
 }
 
 .innerContainer{
@@ -128,6 +129,16 @@ button{
 }
 
 @media screen and (max-width: 680px){
+    .Container{
+        margin: auto;
+        text-align: center;
+    }
+
+    .text>p{
+        margin-right: 0px;
+        font-size: 1rem;
+      }
+
     .innerContainer{
         width: 90%;
         display: block;
@@ -164,6 +175,11 @@ button{
 }
 
 @media screen and (max-width: 425px){
+    .Container{
+        margin: auto;
+        text-align: center;
+    }
+
     .innerContainer{
         width: 90%;
         display: block;

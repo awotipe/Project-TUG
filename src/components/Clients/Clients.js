@@ -2,6 +2,7 @@ import classes from "./Clients.module.css";
 import Picture1 from "../../asset/Client1.svg";
 import Picture2 from "../../asset/Client2.svg";
 import Picture3 from "../../asset/Client3.svg";
+import Picture4 from "../../asset/Client4.png";
 import React, { Component } from "react";
 import Slider from "react-slick";
 
@@ -11,7 +12,6 @@ export default class Clients extends Component {
       className: "center",
       centerMode: true,
       infinite: true,
-      // centerPadding: "400px",
       dots: true,
       slidesToShow: 1,
       slidesToScroll: 1,
@@ -56,9 +56,8 @@ export default class Clients extends Component {
               <div className={classes.innerCard}>
                 <p>
                   TUG Consultancy is one of the best agencies in Nigeria. They
-                  have the best services and they are also transparent,
-                  hospitable and professional. I will recommend TUG consultancy
-                  for anyone who wants to travel and study abroad.
+                  have the best services. I will recommend TUG consultancy for
+                  anyone who wants to travel and study abroad.
                 </p>
               </div>
               <div className={classes.image}>
@@ -93,8 +92,8 @@ export default class Clients extends Component {
               <div className={classes.innerCard}>
                 <p>
                   I found out about TUG consultancy from a friend. I reached out
-                  to them after that and they have been wonderful all through my
-                  application processing.
+                  to them after that and they have been wonderful and
+                  trustworthy all through my application processing.
                 </p>
               </div>
               <div className={classes.image}>
@@ -110,16 +109,16 @@ export default class Clients extends Component {
             <div className={classes.card}>
               <div className={classes.innerCard}>
                 <p>
-                  I found out about TUG consultancy from a friend. I reached out
-                  to them after that and they have been wonderful all through my
-                  application processing.
+                  I sincerely appreciate wonderful TUG Consultancy Ltd for
+                  making this Dubai trip come to reality. They believes so much
+                  in transparency, value and honesty.
                 </p>
               </div>
               <div className={classes.image}>
-                <img src={Picture3} alt="" />
+                <img src={Picture4} alt="" />
               </div>
               <div className={classes.text2}>
-                <p>Joseph Adeleke</p>
+                <p>Esther Daramola</p>
               </div>
             </div>
           </div>

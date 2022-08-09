@@ -51,7 +51,7 @@ button:hover {
   background:var(--secondary);
     border: 1px solid var(--primary)
 }
-.slick-slider{
+/* .slick-slider{
   height: 100vh;
 }
 .slick-dots
@@ -59,8 +59,7 @@ button:hover {
     position: absolute;
     top: 90%;
     z-index: 5;
-   
-}
+} */
 .slick-dots li button:before
 {
   font-size: .7rem !important;
