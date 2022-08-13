@@ -1,0 +1,56 @@
+.testimonial{
+    width: 100%;
+    /* margin-top: 100px; */
+}
+.testimony{
+    width: 30%;
+    margin: auto;
+}
+.testimony h2{
+    font-size: 36px;
+    color: #FF833C;
+    font-family: 'roboto';
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.testimony div{
+    width: 38.12px;
+    border: 1px solid #000000;
+    background-color: #000000;
+    margin-bottom: 70px;
+}
+.testimonies p{
+    width: 57%;
+    margin: auto;
+    font-size: 20px;
+    font-family: 'roboto';
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 20px;
+    color: #606368
+}
+.tobbey{
+    font-size: 24px;
+    font-family: 'roboto';
+    font-weight: 500;
+    color: #000000;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.slick-slider{
+    height: 100vh;
+  }
+
+@media screen and (max-width: 768px){
+    .testimony h2{
+        font-size: 22px;
+    }
+    .testimonies p{
+        width: 65%;
+        font-size: 14px;
+    }
+    .tobbey{
+        font-size: 18px;
+    }
+}

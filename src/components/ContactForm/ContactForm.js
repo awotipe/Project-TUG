@@ -45,11 +45,11 @@ const ContactForm = () => {
         </div>
         <div className={Classes.address}>
           <h3>Website</h3>
-          <p>www.unbreakablegraceconsultancy.com</p>
+          <p>www.tugconsultancyltd.org</p>
         </div>
         <div className={Classes.address}>
           <h3>Email</h3>
-          <p>unbreakablegraceconsultancy@gmail.com</p>
+          <p>info@tugconsultancyltd.org</p>
         </div>
       </div>
       <div className={Classes.ContactForm2}>

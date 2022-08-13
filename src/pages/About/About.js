@@ -5,13 +5,13 @@ import about from "../../asset/About.svg";
 const About = () => {
   return (
     <div className={classes.Container}>
-      <div className={classes.innerContainer}>
-        <div className={classes.text}>
-          <h1>About Us</h1>
-          <p>Home/About Us</p>
-        </div>
+      <div className={classes.ServiceHero}>
         <img src={about} alt="/" />
         <div className={classes.overlay}></div>
+        <div className={classes.content}>
+          <h1>About Us</h1>
+          <p>HOME/ABOUT US</p>
+        </div>
       </div>
       <div className={classes.aboutContainer}>
         <div className={classes.upperText}>

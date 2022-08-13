@@ -82,7 +82,7 @@ const Navbar = () => {
         <div className={Classes.mobileMenuBottom}>
           <div className={Classes.menuIcons}>
             <a href="http://wa.link/za74gk">
-            <button>click to chat on whatsapp</button>
+            <button>Click to chat on whatsapp</button>
             </a>
           </div>
           <div className={Classes.socialIcons}>

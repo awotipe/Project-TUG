@@ -22,7 +22,7 @@ const Services = () => {
         <Servicesimg
           bgImg={Logo2}
           text="Career Coaching & Counselling"
-          content="We give counsel on how thiings should be properly done, for a successful career, for excellence, and for a worthwhile experience that will place you on top of your career."
+          content="We give counsel on how things should be properly done, for a successful career, for excellence, and for a worthwhile experience that will place you on top of your career."
         />
         <Servicesimg
           bgImg={Logo1}

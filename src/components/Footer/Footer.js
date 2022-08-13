@@ -58,7 +58,7 @@ const Footer = (props) => {
 
             <div className={classes.part2}>
               <h3>Email</h3>
-              <p>unbreakablegraceconsultancy@gmail.com</p>
+              <p>info@tugconsultancyltd.org</p>
             </div>
           </div>
         </div>

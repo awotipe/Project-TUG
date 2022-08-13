@@ -22,7 +22,7 @@ const Ourservicesimg = () => {
         <Servicesimg
           bgImg={Logo2}
           text="Career Coaching & Counselling"
-          content="We give counsel on how thiings should be properly done, for a successful career, for excellence, and for a worthwhile experience that will place you on top of your career."
+          content="We give counsel on how things should be properly done, for a successful career, for excellence, and for a worthwhile experience that will place you on top of your career."
         />
         <Servicesimg
           bgImg={Logo1}
@@ -46,13 +46,13 @@ const Ourservicesimg = () => {
         />
         <Servicesimg
           bgImg={Logo6}
-          text="Int’l Exams Registration & Preparation"
+          text="Int'l Exams Registration & Preparation"
           content="We deal with international examinations such as TOEFL, SAT, IELTS, GRE, etc. We also help in preparing you adequately."
         />
          <Servicesimg
           bgImg={Logo7}
           text="Immigration Travel"
-          content="We help you with your traavelling proccess with any country of your choice."
+          content="We help you with your travelling proccess with any country of your choice."
         />
         </div>
     </div>
