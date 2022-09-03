@@ -1,7 +1,5 @@
 .Corevalueimg{
     width: 100%;
-   
-  
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -17,7 +15,7 @@
     margin: 1rem auto;
 }
 .Corevalueimg1{
-     border-radius: 24px;
+    border-radius: 24px;
     box-shadow:   0px 10px 60px rgba(38, 45, 118, 0.09);
     background-color:white; 
     height:22rem;
@@ -33,21 +31,24 @@
 .Corevalueimg1:hover h3{
     color:var(--secondary);
 }
+
+.Corevalueimg1:hover p{
+    color: #fff;
+}
 .Corevalueimg1 p{
-    color:  #B3B3B3;
+    color:  black;
     margin: 0 auto;
     width: 90%;
     line-height:35px ;
-    
+    font-size: 1.2rem;
 }
 @media (max-width: 580px){
     
     .Corevalueimg1 p{
-        color:  #B3B3B3;
         margin: 0 auto;
         width: 90%;
         line-height:30px ;
-        
+        font-size: 1.2rem;
     }
     
 }

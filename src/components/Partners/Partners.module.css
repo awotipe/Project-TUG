@@ -1,9 +1,10 @@
 .main{
-    width: 100%;
+    width: 90%;
     background: rgba(20, 110, 36, 0.15);
     border-radius: 20px;
     padding-top: 40px;
     overflow: hidden;
+    margin: auto;
 }
 
 .innerContainer{
@@ -26,6 +27,8 @@
     display: flex;
     justify-content: space-between;
     margin: auto;
+    width: 70%;
+    padding-bottom: 3rem;
 }
 
 
@@ -49,9 +52,13 @@
 @media screen and (max-width: 425px){
     .partnerslogo{
         width: 70%;
-        display: block;
+        /* display: block; */
         margin: auto;
         gap: 20px;
+    }
+
+    .partnerslogo img{
+        width: 30%;
     }
 
     .innerContainer{

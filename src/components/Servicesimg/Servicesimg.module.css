@@ -29,32 +29,60 @@
     top:40%;
     left:1rem;
     text-align: center;
-    
 }
 
 .content{
     background:#fff;
     text-align: left;
     box-shadow:   0px 10px 60px rgba(38, 45, 118, 0.09);
-    color:  #464646;
+    color:  black;
     border-radius: 0 0 10px 10px;
-    height: 12em;
+    height: 12rem;
     padding:2rem 1rem ;
     font-size: 1.2rem;
     margin-bottom: 2rem;
+    line-height: 2rem;
 
 }
-@media(max-width: 540px){
+@media(max-width: 768px){
     .content{
-        font-size: .8rem; 
+        font-size: 1.2rem; 
         padding:.5rem 1rem;
+    }
+
+    .servicesimg p{
+        font-size: 2rem;
+        margin-top: 4rem;
     }
 }
 @media(max-width: 550px){
     .servicesimg p{
-       
         top:20%;
         
+    }
+
+    .content{
+        font-size: 1.2rem;
+    }
+
+    .servicesimg p{
+        font-size: 2rem;
+        margin-top: 5rem;
+    }
+}
+
+@media(max-width: 425px){
+    .servicesimg p{
+        top:20%;
         
+    }
+
+    .content{
+        font-size: 1.2rem;
+    }
+
+    .servicesimg p{
+        font-size: 2rem;
+        margin-top: 6rem;
     }
 }

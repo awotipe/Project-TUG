@@ -85,11 +85,11 @@ const Navbar = () => {
             <button>Click to chat on whatsapp</button>
             </a>
           </div>
-          <div className={Classes.socialIcons}>
+          {/* <div className={Classes.socialIcons}>
             <FaFacebook className={Classes.icon} />
             <FaInstagram className={Classes.icon} />
             <FaTwitter className={Classes.icon} />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

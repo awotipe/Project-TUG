@@ -18,10 +18,13 @@ const Partners = () => {
           <img src={Logo1} alt="/" className={classes.footlogo} />
           <img src={Logo2} alt="/" className={classes.footlogo} />
           <img src={Logo3} alt="/" className={classes.footlogo} />
+          </div>
+          <div className={classes.partnerslogo}>
           <img src={Logo4} alt="/" className={classes.footlogo} />
           <img src={Logo5} alt="/" className={classes.footlogo} />
           <img src={Logo6} alt="/" className={classes.footlogo} />
         </div>
+       
       </div>
     </div>
   );

@@ -13,10 +13,10 @@ const CoreValue = () => {
       <Corevalueimg
         bgImg={Logo}
         header="Loyalty"
-        text="For us as a company, it is very important that
+        text="It is very important that
               the information provided to our customers is
-              honest and true. This value is, what makes us
-              different and helps us to  make decisions
+              honest and true. This value is what makes us
+              different and helps us to make decisions
               based on firm and true facts."
       />
       <Corevalueimg

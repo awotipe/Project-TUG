@@ -17,7 +17,7 @@ const ContactForm = () => {
       .then(
         (result) => {
           console.log(result.text);
-          console.log("Your message has been successfully sent.We will contact you soon.")
+          console.log("Your message has been successfully sent.   We will contact you soon.")
         },
         (error) => {
           console.log(error.text);

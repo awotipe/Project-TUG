@@ -56,7 +56,7 @@ export default class Clients extends Component {
               <div className={classes.innerCard}>
                 <p>
                   TUG Consultancy is one of the best agencies in Nigeria. They
-                  have the best services. I will recommend TUG consultancy for
+                  have the best services. I will recommend TUG for
                   anyone who wants to travel and study abroad.
                 </p>
               </div>
@@ -75,7 +75,7 @@ export default class Clients extends Component {
                 <p>
                   I'm grateful I made my admission process to study abroad with
                   TUG consultancy, they put me through proper steps and I am
-                  happy, there is a difference in my life today.
+                  very happy, there is a difference in my life today.
                 </p>
               </div>
               <div className={classes.image}>
@@ -91,9 +91,9 @@ export default class Clients extends Component {
             <div className={classes.card}>
               <div className={classes.innerCard}>
                 <p>
-                  I found out about TUG consultancy from a friend. I reached out
-                  to them after that and they have been wonderful and
-                  trustworthy all through my application processing.
+                  I found out about TUG Consultancy Ltd from a friend. I
+                  reached out to them and they have been wonderful
+                  and trustworthy all through my application processing.
                 </p>
               </div>
               <div className={classes.image}>
@@ -109,9 +109,9 @@ export default class Clients extends Component {
             <div className={classes.card}>
               <div className={classes.innerCard}>
                 <p>
-                  I sincerely appreciate wonderful TUG Consultancy Ltd for
+                  I sincerely appreciate wonderful TUG Consultancy Limited for
                   making this Dubai trip come to reality. They believes so much
-                  in transparency, value and honesty.
+                  in transparency, value and honesty. Thank you!
                 </p>
               </div>
               <div className={classes.image}>

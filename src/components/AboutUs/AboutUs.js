@@ -19,7 +19,7 @@ const AboutUs = () => {
             provide human scope and international exams, education, and
             immigration services to people worldwide.
           </p>
-          <Link to="/services">
+          <Link to="/about">
           <button>Learn More</button>
           </Link>
         </div>
