@@ -17,7 +17,7 @@
   }
   
 .overlay{
-    background-color: rgba(37, 36, 36, 0.7);
+    background-color: rgba(29, 28, 28, 0.7);
     position: absolute;
     width: 100%;
     height: 100%;
@@ -51,9 +51,9 @@
     flex-direction: column;
     text-align: center;
     padding:1rem;
-    width:38% ;
+    width:70% ;
     margin:0 auto;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .content h1{
@@ -62,7 +62,7 @@
     flex-direction: column;
     text-align: center;
     padding:1rem;
-    width: 70%;
+    width: 80%;
     margin:0 auto;
     
 }
@@ -86,9 +86,9 @@
     flex-direction: column;
     text-align: center;
     padding:1rem;
-    width:38% ;
+    width:45% ;
     margin:0 auto;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .content2 h1{
@@ -127,7 +127,31 @@
 }
 
 
+@media (max-width: 425px){
+    .content p{
+        width:90% ;
+        font-size: 1.2rem;
+    }
+    
+    .content h1{ 
+        width:100% ;
+        margin-top: 4rem;
+        font-size: 2.3rem;
+        
+    }
 
+    .content2 p{
+        width:90% ;
+        font-size: 1.2rem;
+        
+    }
+    
+    .content2 h1{ 
+        width:90% ;
+        font-size: 2.3rem;
+    }
+
+}
 
 
 
